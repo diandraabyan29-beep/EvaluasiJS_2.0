@@ -15,12 +15,25 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+
 input,
 select,
 button {
     width: 100%;
     padding: 8px;
     margin-top: 10px;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    padding: 0;
+    margin-top: 0;
 }
 
 button {
