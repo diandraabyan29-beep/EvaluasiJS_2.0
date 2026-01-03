@@ -1,40 +1,42 @@
 body {
-  font-family: Arial, sans-serif;
-  background: #f4f6f8;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .card {
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  width: 320px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 320px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-input, select, button {
-  width: 100%;
-  padding: 8px;
-  margin-top: 10px;
+input,
+select,
+button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
 }
 
 button {
-  background: #2563eb;
-  color: white;
-  border: none;
-  cursor: pointer;
+    background: #2563eb;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
 button:disabled {
-  background: #aaa;
+    background: #aaa;
 }
 
 #hasil {
-  margin-top: 15px;
-  padding: 10px;
-  border-radius: 6px;
-  background: #f1f5f9;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 6px;
+    background: #f1f5f9;
 }
